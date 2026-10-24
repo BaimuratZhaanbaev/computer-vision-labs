@@ -1,3 +1,15 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# Скрытые служебные файлы и автосохранения Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+__pycache__/
+
+# Локальное виртуальное окружение Pixi (папка со всеми библиотеками)
+.pixi/
+
+# Папка с тяжелыми бинарными картинками и датасетами
+lab1/data/
+data/
