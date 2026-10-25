@@ -7,6 +7,9 @@ version = "0.1.0"
 
 [tasks]
 lab = "jupyter lab"
+login = "hf auth login"
+download-all = "dvc pull"
+push-data = "dvc add lab1/data && hf upload $HF_REPO lab1/data lab1/data --repo-type=dataset"
 
 [dependencies]
 python = "3.12.*"
@@ -25,3 +28,7 @@ huggingface_hub = ">=2.3.0,<3"
 
 [pypi-dependencies]
 jupyterlab-gruvbox-material = ">=2.0.0, <3"
+
+[activation.env]
+HF_REPO = "the-baika/dvc-labs-dataset"
+HF_URL = "https://huggingface.co"
