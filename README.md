@@ -43,7 +43,7 @@
 
 ### 2. Клонирование репозитория
 ```bash
-git clone https://github.com/BaimuratZhaanbaev/computer-vision-labs-.git
+git clone https://github.com/BaimuratZhaanbaev/computer-vision-labs.git
 cd computer-vision-labs
 ```
 
